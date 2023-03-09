@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>Buttons_web_right_1</title>
+  <circle class="a" cx="21.5" cy="21.5" r="20"/>
+  <polygon points="20.421 11.529 14.341 11.529 24.311 21.529 14.341 31.529 20.421 31.529 30.381 21.529 20.421 11.529"/>
+</svg>

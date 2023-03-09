@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #cfe5f2;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .b {
+        fill: #cfe5f2;
+      }
+    </style>
+  </defs>
+  <title>Buttons_web_right_wight</title>
+  <circle class="a" cx="22.5" cy="22.5" r="20"/>
+  <polygon class="b" points="21.421 12.529 15.341 12.529 25.311 22.529 15.341 32.529 21.421 32.529 31.381 22.529 21.421 12.529"/>
+</svg>

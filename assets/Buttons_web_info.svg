@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>Buttons_web_info</title>
+  <circle class="a" cx="22.5" cy="22.5" r="20"/>
+  <path d="M21.315,11.472h2.94v3.96H20.444v-3.96Zm-.72,6.045V32.472h3.51v-15H20.6Z"/>
+</svg>

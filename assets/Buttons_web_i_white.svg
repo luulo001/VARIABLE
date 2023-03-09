@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #cfe5f2;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .b {
+        fill: #cfe5f2;
+      }
+    </style>
+  </defs>
+  <title>Buttons_web_i</title>
+  <circle class="a" cx="22.5" cy="22.5" r="20"/>
+  <path class="b" d="M21.269,10h3.5v4.714H20.232V10Zm-.857,7.2V35h4.176V17.144H20.412Z"/>
+</svg>
