@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Polymorph';
+    src: url('assets/Polymorph_20-VF.ttf') format('truetype-variations');
+    font-weight: 300 700;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Polymorph';
+    text-rendering: geometricPrecision;
+    margin: auto;
+    width: 100%;
+    height: 00vh;
+    text-align: center;
+    overflow: visible;
+    background-color: black;
+
+}
+
+/* Headline */
+
+p {
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
+    padding: 10px 10px 10px 10px;
+    vertical-align: middle;
+    font-size: calc(17px + 7.5vw);
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: 2px;
+    color: #CFE5F2;
+    position: fixed;
+    font-variation-settings: 'PATT'50, 'WGHT'0;
+
+}
+
+/* Home Logo */
+
+
+.button-home {
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+    margin: inherit;
+    padding: 0px;
+    position: fixed;
+
+}
+
+.button-home:hover {
+    box-shadow: 0 0px 0px 0 #666;
+    transform: scale(1.15);
+    transition: font-weight .45s ease-out;
+
+}
+
+/* Info Button */
+
+.button-info {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    bottom: 20px;
+    margin: inherit;
+    padding: 0px;
+    position: fixed;
+}
+
+.button-info:hover {
+    box-shadow: 0 0px 0px 0 #666;
+    transform: scale(1.15);
+    transition: font-weight .45s ease-out;
+
+}
+
+/* Change Color Button */
+
+.h3 {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    left: 440px;
+    bottom: 20px;
+    padding: 8px 5px 5px 5px;
+    background-color: #C6FA00;
+    border: 3px solid #C6FA00;
+    border-radius: 50px 50px 50px 50px;
+    transition: all 0.1s ease-in-out;
+
+}
+
+h3:hover {
+    box-shadow: 0 0px 0px 0 #666;
+    transform: scale(1.15);
+    transition: font-weight .45s ease-out;
+
+}
+
+/* Font Styles */
+
+.p1 {
+    display: inline-block;
+    margin: inherit;
+    width: 100px;
+    height: 20px;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    padding: 0px 5px 0px 5px;
+    background-color: transparent;
+    font-size: calc(12px);
+    text-align: center;
+    text-transform: uppercase;
+    color: #CFE5F2;
+    border: 1.5px solid #CFE5F2;
+    border-radius: 50px 50px 50px 50px;
+    transition: all 0.1s ease-in-out;
+    font-variation-settings: 'WGHT'700;
+    text-decoration: none;
+
+}
+.p1:hover {
+    box-shadow: 0 0px 0px 0 #666;
+    transform: scale(1.05);
+}
+
+
+.p2 {
+    margin: auto;
+    width: 100px;
+    height: 20px;
+    position: fixed;
+    left: 125px;
+    bottom: 20px;
+    padding: 0px 5px 0px 5px;
+    background-color: transparent;
+    font-size: calc(12px);
+    text-align: center;
+    text-transform: uppercase;
+    color: #CFE5F2;
+    border: 1.5px solid #CFE5F2;
+    border-radius: 50px 50px 50px 50px;
+    transition: all 0.1s ease-in-out;
+    font-variation-settings: 'WGHT'700;
+    text-decoration: none;
+
+}
+.p2:hover {
+    box-shadow: 0 0px 0px 0 #666;
+    transform: scale(1.05);
+}
+
+.p3 {
+    margin: auto;
+    width: 100px;
+    height: 20px;
+    position: fixed;
+    left: 230px;
+    bottom: 20px;
+    padding: 0px 5px 0px 5px;
+    background-color: transparent;
+    font-size: calc(12px);
+    text-align: center;
+    text-transform: uppercase;
+    color: #CFE5F2;
+    border: 1.5px solid #CFE5F2;
+    border-radius: 50px 50px 50px 50px;
+    transition: all 0.1s ease-in-out;
+    font-variation-settings: 'WGHT'700;
+    text-decoration: none;
+
+}
+.p3:hover {
+    box-shadow: 0 0px 0px 0 #666;
+    transform: scale(1.05);
+}
+
+.p4 {
+    margin: auto;
+    width: 100px;
+    height: 20px;
+    position: fixed;
+    left: 335px;
+    bottom: 20px;
+    padding: 0px 5px 0px 5px;
+    background-color: transparent;
+    font-size: calc(12px);
+    text-align: center;
+    text-transform: uppercase;
+    color: #CFE5F2;
+    border: 1.5px solid #CFE5F2;
+    border-radius: 50px 50px 50px 50px;
+    transition: all 0.1s ease-in-out;
+    font-variation-settings: 'WGHT'700;
+    text-decoration: none;
+
+}
+.p4:hover {
+    box-shadow: 0 0px 0px 0 #666;
+    transform: scale(1.05);
+}
+
+
+/* Buttons Navigation */
+
+/*.button-right {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    top: 20px;
+    margin: inherit;
+    padding: 0px;
+    position: fixed;
+
+}
+
+
+
+.button-right:hover {
+    box-shadow: 0 0px 0px 0 #666;
+    transform: scale(1.15);
+}
+*/
+
+
+
+.button-left {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    top: 20px;
+    margin: inherit;
+    padding: 0px;
+    position: fixed;
+
+
+}
+
+.button-left:hover {
+    box-shadow: 0 0px 0px 0 #666;
+    transform: scale(1.15);
+}
