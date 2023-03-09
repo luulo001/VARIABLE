@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Polymorph';
+    src: url('assets/Polymorph_20-VF.ttf') format('truetype-variations');
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #C6FA00;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Polymorph';
+    text-rendering: geometricPrecision;
+    margin: 0vh auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+/* Headline VARIABLE */
+
+h1 {
+    animation: wacky infinite;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 15vh;
+    border: auto;
+    font-weight: normal;
+    font-size: calc(50px + 10vw);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1;
+    color: black;
+}
+
+
+/* Buttons Navigation */
+
+.button-right {
+    position:fixed;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    bottom: 20vh;
+    margin: inherit;
+    padding: 0px;
+    left:50%;
+
+}
+
+.button-right:hover {
+    box-shadow: 0 0px 0px 0 #666;
+    transform: scale(1.15);
+}
+
+
+/* Animation */
+
+p:nth-child(2) {
+    animation-delay: .1s
+}
+
+p:nth-child(3) {
+    animation-delay: .2s
+}
+
+p:nth-child(4) {
+    animation-delay: .3s
+}
+
+p:nth-child(5) {
+    animation-delay: .4s
+}
+
+p:nth-child(6) {
+    animation-delay: .5s
+}
+
+@keyframes wacky {
+    0% {
+        font-variation-settings: "SERI"0, "MONO"50, "PATT"0, "WDTH"100;
+    }
+
+    25% {
+        font-variation-settings: "SERI"50, "MONO"0, "PATT"0, "WDTH"100;
+    }
+
+    50% {
+        font-variation-settings: "SERI"0, "MONO"0, "PATT"50, "WDTH"100;
+    }
+
+    75% {
+        font-variation-settings: "SERI"0, "MONO"0, "PATT"0, "WDTH"100;
+    }
+
+    100% {
+        font-variation-settings: "SERI"0, "MONO"50, "PATT"0, "WDTH"100;
+    }
+}

@@ -1,0 +1,99 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style_typetester_serif_alt.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/Logo_RGB-05.png">
+</head>
+<title>VARIABLE – A typeface that visualizes the verge between humanism and artificial intelligence</title>
+
+<meta charset="utf-8">
+
+<body>
+
+
+
+    <p id="headline" contenteditable="true" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-reset>Humanity...</p>
+    
+     <!--- get position --->
+    <div>
+        <a href="index_typetester.html"
+            class="p1"
+            >Sans
+        </a>
+        <a  href="index_typetester_serif.html"
+            class="p2"
+            >Serif
+        </a>
+         <a href="index_typetester_mono.html"
+            class="p3"
+            >Mono
+        </a>
+         <a href="index_typetester_pattern.html"
+            class="p4"
+            >Pattern
+        </a>
+    </div>
+
+    <!--- Button right --->
+
+    <div>
+        <a href="index_typetester_mono.html"><img src="assets/Buttons_web_right_white.svg" alt="Button-right" class="button-right" /></a>
+    </div>
+
+    <!--- Button left --->
+
+    <div>
+        <a href="index_typetester.html"><img src="assets/Buttons_web_left_white.svg" alt="Button-left" class="button-left" /></a>
+    </div>
+
+    <!--- Button home --->
+
+    <div>
+        <a href="index.html"><img src="assets/Buttons_web_logo_2_white.svg" alt="Logo-Variable" class="button-home" /></a>
+    </div>
+
+   <!--- Button info --->
+
+    <div>
+        <a href="index_info.html"><img src="assets/Buttons_web_info_white.svg" alt="Button-left" class="button-info" /></a>
+    </div>
+
+
+    <!--- Button change color --->
+
+    <div>
+        <a href="index_typetester_serif.html" class="a" />
+        <h3 class="h3"></h3>
+    </div>
+
+</body>
+
+<script>
+    function mapRange(value, low1, high1, low2, high2) {
+        return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
+    }
+
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+
+    var xAxis;
+    var yAxis;
+
+    var h1 = document.getElementById("headline");
+
+
+    document.addEventListener('mousemove', (e) => {
+        // console.log(e);
+        var mouseX = event.clientX;
+        var mouseY = event.clientY;
+        xAxis = mapRange(mouseX, 0, w, 0, 1);
+        yAxis = mapRange(mouseY, 0, h, 0, 1);
+
+
+
+
+
+
+        h1.style.fontSize = xAxis * 800;
+    });
+
+</script>
