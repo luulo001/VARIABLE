@@ -157,10 +157,10 @@ p1 {
     margin: inherit;
     width: 100px;
     height: 20px;
-    position: fixed;
+    position: absolute;
     left: 20px;
     bottom: 20px;
-    padding: 0px 5px 0px 5px;
+    padding: 4px;
     background-color: transparent;
     font-size: calc(12px);
     text-align: center;
@@ -178,10 +178,10 @@ p2 {
     margin: auto;
     width: 100px;
     height: 20px;
-    position: fixed;
+    position: absolute;
     left: 125px;
     bottom: 20px;
-    padding: 0px 5px 0px 5px;
+    padding: 4px;
     background-color: transparent;
     font-size: calc(12px);
     text-align: center;
